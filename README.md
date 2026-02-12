@@ -4,8 +4,6 @@ A complete RTL-to-GDSII implementation of a 32-bit MIPS-based RISC processor usi
 
 ---
 
-**Project Report**  
-*Design of a 32-Bit MIPS-Based RISC Processor in 45nm Technology Using Open-Source Tools*
 ---
 
 ## Table of Contents

@@ -578,15 +578,6 @@ R4 = 30
 R5 = 55
 ```
 
-### Final Layout Snapshots
-![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-09%20231815.png)
-![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-09%20233902.png)
-![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-09%20234102.png)
-![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-10%20000103.png)
-<img src="images/[diagram.png](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-09%20231815.png)" height="250">
-
-All test instructions executed correctly with proper pipeline flow and register updates.
-
 1. **No Data Forwarding**: Software must insert NOPs to avoid RAW hazards
 2. **Simple Branch Handling**: Always causes pipeline bubbles
 3. **Limited Instruction Set**: Subset of MIPS32
@@ -605,6 +596,12 @@ All test instructions executed correctly with proper pipeline flow and register 
 - **Clock Frequency**: 100 MHz
 - **Theoretical MIPS**: 100 MIPS
 - **Effective MIPS**: ~65-75 MIPS (accounting for hazards)
+
+### Final Layout Snapshots
+![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-09%20231815.png)
+![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-09%20233902.png)
+![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-09%20234102.png)
+![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-10%20000103.png)
 
 ## Future Enhancements
 

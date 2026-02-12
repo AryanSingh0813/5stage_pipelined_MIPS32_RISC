@@ -578,6 +578,9 @@ R4 = 30
 R5 = 55
 ```
 
+### Final Layout
+![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-09%20233902.png)
+
 All test instructions executed correctly with proper pipeline flow and register updates.
 
 1. **No Data Forwarding**: Software must insert NOPs to avoid RAW hazards

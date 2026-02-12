@@ -792,7 +792,7 @@ Roll No: 220104013
 B.Tech in Electronics and Communication Engineering  
 Specialization: VLSI and Embedded Systems  
 Indian Institute of Information Technology Senapati, Manipur  
-Contact: +91 9958667276
+Mail: aryansingh220104@gmail.com
 For questions, issues, or contributions, please open an issue on the project repository.
 
 ---

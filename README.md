@@ -578,8 +578,10 @@ R4 = 30
 R5 = 55
 ```
 
-### Final Layout
+### Final Layout Snapshots
 ![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-09%20233902.png)
+![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-09%20234102.png)
+![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-10%20000103.png)
 
 All test instructions executed correctly with proper pipeline flow and register updates.
 

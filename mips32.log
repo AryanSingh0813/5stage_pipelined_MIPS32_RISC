@@ -1,0 +1,6 @@
+OpenROAD v2.0-18710-gab81e3020 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING GUI-0077] Timing data is not stored in /home/aryan/RISC_proj/results/mips_32_nangate45_repaired_route-tcl.odb and must be loaded separately, if needed.
+[WARNING GUI-0066] Heat map "IR Drop" has not been populated with data.

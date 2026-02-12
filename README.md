@@ -2,7 +2,8 @@
 
 A complete RTL-to-GDSII implementation of a 32-bit MIPS-based RISC processor using entirely open-source tools, designed in the Nangate 45nm technology node.
 
-![MIPS32 Pipeline Architecture](images/pipeline_architecture.png)
+![MIPS32 Pipeline Architecture](<img width="855" height="631" alt="image" src="https://github.com/user-attachments/assets/56a1bb3d-1cde-4d26-9fa4-2ea94a0108b2" />
+)
 
 ---
 

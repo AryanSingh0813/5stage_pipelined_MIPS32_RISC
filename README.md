@@ -792,7 +792,6 @@ SOFTWARE.
 ## Contact
 
 **Aryan Singh**  
-Roll No: 220104013  
 B.Tech in Electronics and Communication Engineering  
 Specialization: VLSI and Embedded Systems  
 Indian Institute of Information Technology Senapati, Manipur  

@@ -683,7 +683,6 @@ Contributions are welcome! Please:
 This project was completed as part of the **Project I - EC(4201)** course requirement for the Bachelor of Technology degree in Electronics and Communication Engineering with specialization in VLSI and Embedded Systems at the **Indian Institute of Information Technology Senapati, Manipur**.
 
 **Special Thanks:**
-- **Dr. Anup Dey** - Project supervisor for invaluable guidance and support throughout the project
 - **Department of ECE, IIIT Manipur** - For providing resources and infrastructure
 - **Open-Source Community** - For developing and maintaining the tools that made this project possible
 

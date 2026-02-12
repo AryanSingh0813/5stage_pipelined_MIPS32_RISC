@@ -583,6 +583,7 @@ R5 = 55
 ![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-09%20233902.png)
 ![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-09%20234102.png)
 ![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-10%20000103.png)
+<img src="images/[diagram.png](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-09%20231815.png)" height="250">
 
 All test instructions executed correctly with proper pipeline flow and register updates.
 

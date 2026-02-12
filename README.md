@@ -2,21 +2,10 @@
 
 A complete RTL-to-GDSII implementation of a 32-bit MIPS-based RISC processor using entirely open-source tools, designed in the Nangate 45nm technology node.
 
-![MIPS32 Pipeline Architecture](<img width="855" height="631" alt="image" src="https://github.com/user-attachments/assets/56a1bb3d-1cde-4d26-9fa4-2ea94a0108b2" />
-)
-
 ---
 
 **Project Report**  
 *Design of a 32-Bit MIPS-Based RISC Processor in 45nm Technology Using Open-Source Tools*
-
-**Author**: Aryan Singh (Roll No: 220104013)  
-**Institution**: Indian Institute of Information Technology Senapati, Manipur  
-**Department**: Electronics and Communication Engineering  
-**Specialization**: VLSI and Embedded Systems  
-**Supervisor**: Dr. Anup Dey  
-**Date**: November 2025
-
 ---
 
 ## Table of Contents
@@ -30,7 +19,6 @@ A complete RTL-to-GDSII implementation of a 32-bit MIPS-based RISC processor usi
 - [Simulation](#simulation)
 - [Physical Synthesis](#physical-synthesis)
 - [Design Results](#design-results)
-- [Known Limitations](#known-limitations)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
@@ -80,8 +68,6 @@ The Microprocessor without Interlocked Pipeline Stages (MIPS) architecture, intr
 
 The processor implements the following pipeline stages:
 
-![Pipeline Stages Diagram](images/pipeline_stages.png)
-
 | Stage | Clock | Function | Key Operations |
 |-------|-------|----------|----------------|
 | **IF** (Instruction Fetch) | clk1 | Fetch instruction from memory | PC update, instruction fetch |
@@ -99,23 +85,15 @@ The processor implements the following pipeline stages:
    clk1          clk2           clk1           clk2           clk1
 ```
 
-![Pipeline Register Flow](images/pipeline_registers.png)
-
 **Pipeline Registers:**
 - `IF_ID_IR`, `IF_ID_NPC`: Instruction and Next PC
 - `ID_EX_IR`, `ID_EX_NPC`, `ID_EX_A`, `ID_EX_B`, `ID_EX_Imm`: Decoded instruction and operands
 - `EX_MEM_IR`, `EX_MEM_ALUOut`, `EX_MEM_B`, `EX_MEM_cond`: ALU results and branch condition
 - `MEM_WB_IR`, `MEM_WB_ALUOut`, `MEM_WB_LMD`: Memory data and ALU output
 
-### Data Path Diagram
-
-![Complete Data Path](images/datapath_diagram.png)
-
 ## Supported Instructions
 
 ### Instruction Format
-
-![Instruction Formats](images/instruction_formats.png)
 
 #### R-Type Format
 ```
@@ -236,7 +214,7 @@ mips32-pipeline/
 ### Prerequisites
 
 **For Simulation:**
-- ModelSim / QuestaSim / Icarus Verilog / Vivado
+- ModelSim / QuestaSim / Icarus Verilog / Vivado)
 - GTKWave (for waveform viewing with Icarus)
 
 **For Physical Synthesis:**
@@ -310,8 +288,6 @@ run 500ns
 ### Sample Program
 
 The testbench includes a sample program demonstrating the pipeline functionality:
-
-![Sample Program Execution](images/sample_program.png)
 
 ```assembly
 Address | Machine Code | Assembly               | Description
@@ -451,8 +427,6 @@ set_output_delay -clock clk2 -max 1.5 [get_ports ALU_output]
 - No memory port conflicts
 
 ### Data Hazards
-
-![Data Hazard Example](images/hazard_example.png)
 
 ⚠️ **Not handled in hardware** - Requires software insertion of NOPs
 
@@ -605,10 +579,6 @@ R5 = 55
 ```
 
 All test instructions executed correctly with proper pipeline flow and register updates.
-
-![Post-Simulation Results](images/sample_program.png)
-
-
 
 1. **No Data Forwarding**: Software must insert NOPs to avoid RAW hazards
 2. **Simple Branch Handling**: Always causes pipeline bubbles
@@ -823,12 +793,6 @@ B.Tech in Electronics and Communication Engineering
 Specialization: VLSI and Embedded Systems  
 Indian Institute of Information Technology Senapati, Manipur  
 Contact: +91 9958667276
-
-**Project Supervisor:**  
-Dr. Anup Dey  
-Department of Electronics and Communication Engineering  
-IIIT Senapati, Manipur
-
 For questions, issues, or contributions, please open an issue on the project repository.
 
 ---
@@ -853,39 +817,3 @@ As open-source EDA tools continue maturing and more open PDKs become available, 
 **Supervisor:** Dr. Anup Dey
 
 ---
-
-## Appendix
-
-### A. Instruction Encoding Reference
-
-Complete opcode table and encoding formats.
-
-### B. Pipeline Timing Diagrams
-
-Detailed timing diagrams for various scenarios.
-
-### C. Memory Map
-
-```
-Address Range  | Usage
----------------|------------------
-0x000 - 0x0FF  | Instruction Memory
-0x100 - 0x1FF  | Data Memory
-```
-
-### D. Register Convention
-
-```
-Register | Name  | Usage
----------|-------|------------------
-R0       | $zero | Constant 0 (hardwired)
-R1-R7    | -     | General purpose
-R8-R15   | -     | General purpose
-R16-R23  | -     | General purpose
-R24-R31  | -     | General purpose
-```
-
----
-
-*Last Updated: February 2026*
-*Version: 1.0*

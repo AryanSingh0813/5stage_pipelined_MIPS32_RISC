@@ -805,15 +805,4 @@ The foundation established provides numerous opportunities for future enhancemen
 
 As open-source EDA tools continue maturing and more open PDKs become available, the future of accessible chip design looks increasingly promising. This project serves as a practical demonstration of what is possible today with open-source methodologies.
 
----
 
-**Project Documentation:**  
-*Design of a 32-Bit MIPS-Based RISC Processor in 45nm Technology Using Open-Source Tools*
-
-**Submitted:** November 2025  
-**Course:** Project I - EC(4201)  
-**Institution:** Indian Institute of Information Technology Senapati, Manipur  
-**Department:** Electronics and Communication Engineering  
-**Supervisor:** Dr. Anup Dey
-
----

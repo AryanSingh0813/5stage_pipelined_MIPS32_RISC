@@ -579,6 +579,7 @@ R5 = 55
 ```
 
 ### Final Layout Snapshots
+![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-09%20231815.png)
 ![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-09%20233902.png)
 ![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-09%20234102.png)
 ![Diagram](https://github.com/AryanSingh0813/5stage_pipelined_MIPS32_RISC/blob/main/Screenshot%202025-09-10%20000103.png)
